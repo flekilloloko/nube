@@ -1,1 +1,4 @@
 Página de driver arduino Nano http://www.ftdichip.com/Drivers/VCP.htm
+
+Impedancia entrada analogica arduino
+https://electronics.stackexchange.com/questions/67171/input-impedance-of-arduino-uno-analog-pins
