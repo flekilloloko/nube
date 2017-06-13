@@ -1,0 +1,14 @@
+Place this file in /etc/init.d and make it executable.
+
+sudo mv listen-for-shutdown.sh /etc/init.d/
+sudo chmod +x /etc/init.d/listen-for-shutdown.sh
+
+Now we'll register the script to run on boot.
+
+sudo update-rc.d listen-for-shutdown.sh defaults
+
+Since the script won't be running, we'll go ahead and start it with:
+
+sudo /etc/init.d/listen-for-shutdown.sh start
+
+Note: These scripts have been added to a Github repo to make them easier to pull down. Feel free to submit pull requests with improvements.
