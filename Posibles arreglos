@@ -1,0 +1,1 @@
+You might want to connect a 100K resistor from each input to ground. This will affect the linearity of the pedal readings slightly, but it will also ensure that you get a reading close to zero on an input with no pedal connected. If you also connect a 10nF or 100nF capacitor from each input to ground then the readings you get will be more stable.
